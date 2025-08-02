@@ -67,9 +67,7 @@ for student in students:
 		Average_performance.append({student['id']:(student['name'],student['score'])}) 
 	elif student["score"] < 50:
 		Low_performance.append({student['id']:(student['name'],student['score'])})
-	else:
-		print("Invalid Score")
-
+	
 print()
 
 print(f"Student with High Performance ===> {len(High_performance[:])}")
